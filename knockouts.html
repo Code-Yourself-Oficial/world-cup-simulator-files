@@ -1,0 +1,60 @@
+<div class="knockouts">
+  <h1>Eliminatórias</h1>
+  <div class="row" #1>
+    <div class="cell" (click)="changeQuarter(0, roundOf16[0].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(roundOf16[0].teamOne)"></div></div>
+    <div class="cell bar right bottom"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell bar left bottom"></div>
+    <div class="cell" (click)="changeQuarter(1, roundOf16[1].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(roundOf16[1].teamOne)"></div></div>
+  </div>
+  <div class="row" #2>
+    <div class="cell hide"></div>
+    <div class="cell" (click)="changeSemi(0, quarter[0].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(quarter[0].teamOne)"></div></div>
+    <div class="cell bar right bottom"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell bar left bottom"></div>
+    <div class="cell" (click)="changeSemi(1, quarter[1].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(quarter[1].teamOne)"></div></div>
+    <div class="cell hide"></div>
+  </div>
+  <div class="row" #3>
+    <div class="cell" (click)="changeQuarter(0, roundOf16[0].teamTwo!)"><div class="flag" [ngStyle]="getBackgroundStyle(roundOf16[0].teamTwo)"></div></div>
+    <div class="cell bar right top"></div>
+    <div class="cell v-bar"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell v-bar"></div>
+    <div class="cell bar left top"></div>
+    <div class="cell" (click)="changeQuarter(1, roundOf16[1].teamTwo!)"><div class="flag" [ngStyle]="getBackgroundStyle(roundOf16[1].teamTwo)"></div></div>
+  </div>
+
+  <div class="row" #4>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+    <div class="cell" (click)="changeFinal(0, semi[0].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(semi[0].teamOne)"></div></div>
+    <div class="cell bar right bottom"></div>
+    <div class="cell hide"></div>
+    <div class="cell"><div class="trofeu"></div></div>
+    <div class="cell hide"></div>
+    <div class="cell bar left bottom"></div>
+    <div class="cell" (click)="changeFinal(1, semi[1].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(semi[1].teamOne)"></div></div>
+    <div class="cell hide"></div>
+    <div class="cell hide"></div>
+  </div>
+
+  <div class="row" #5>
+    <div class="cell" (click)="changeQuarter(2, roundOf16[2].teamOne!)"><div class="flag" [ngStyle]="getBackgroundStyle(roundOf16[2].teamOne)"></div></div>
+    <div class="cell bar right bottom"></div>
+    <div class="cell v-bar"></div>
