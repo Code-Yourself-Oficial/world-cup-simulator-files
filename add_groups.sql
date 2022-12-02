@@ -25,7 +25,7 @@ update Teams set [Group] = 5 where name = 'Japão'
 
 update Teams set [Group] = 6 where name = 'Bélgica'
 update Teams set [Group] = 6 where name = 'Canadá'
-update Teams set [Group] = 6 where name = 'Corácia'
+update Teams set [Group] = 6 where name = 'Croácia'
 update Teams set [Group] = 6 where name = 'Marrocos'
 
 

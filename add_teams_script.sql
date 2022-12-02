@@ -10,7 +10,7 @@ Values (NEWID(), 'Alemanha', 'https://raw.githubusercontent.com/Code-Yourself-Of
 (NEWID(), 'Catar', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Catar.svg'),
 (NEWID(), 'Coreia do Sul', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Coreia_do_Sul.svg'),
 (NEWID(), 'Costa Rica', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Costa_Rica.svg'),
-(NEWID(), 'Corácia', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Cro%C3%A1cia.svg'),
+(NEWID(), 'Croácia', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Cro%C3%A1cia.svg'),
 (NEWID(), 'Dinamarca', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Dinamarca.svg'),
 (NEWID(), 'Equador', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Equador.svg'),
 (NEWID(), 'Espanha', 'https://raw.githubusercontent.com/Code-Yourself-Oficial/world-cup-simulator-files/main/teams/Espanha.svg'),
